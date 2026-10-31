@@ -1,7 +1,18 @@
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout.jsx'
+import Home from './pages/Home.jsx'
+import Placeholder from './pages/Placeholder.jsx'
+import { NAV } from './nav.js'
+
 export default function App() {
   return (
-    <div className="min-h-screen bg-slate-900 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-cyan-400">Tailwind works ✅</h1>
-    </div>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route index element={<Home />} />
+        {NAV.filter((n) => n.to !== '/').map((n) => (
+          <Route key={n.to} path={n.to} element={<Placeholder item={n} />} />
+        ))}
+      </Route>
+    </Routes>
   )
 }
