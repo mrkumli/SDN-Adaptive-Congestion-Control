@@ -1,0 +1,38 @@
+{
+  "pre": {
+    "ping_avg_ms": 10.054,
+    "ping_max_ms": 10.2,
+    "ping_loss_pct": 0.0,
+    "udp_mbps": 1.0,
+    "udp_loss_pct": 0.0,
+    "udp_jitter_ms": 0.006
+  },
+  "during_early": {
+    "ping_avg_ms": 504.43,
+    "ping_max_ms": 1425.0,
+    "ping_loss_pct": 0.0,
+    "udp_mbps": 0.905,
+    "udp_loss_pct": 0.0,
+    "udp_jitter_ms": 1.699,
+    "h1_mbps": 4.281,
+    "h3_mbps": 4.281
+  },
+  "during_steady": {
+    "ping_avg_ms": 1410.319,
+    "ping_max_ms": 2258.0,
+    "ping_loss_pct": 20.0,
+    "udp_mbps": 0.804,
+    "udp_loss_pct": 19.2,
+    "udp_jitter_ms": 3.93,
+    "h1_mbps": 4.311,
+    "h3_mbps": 3.903
+  },
+  "post": {
+    "ping_avg_ms": 68.105,
+    "ping_max_ms": 927.0,
+    "ping_loss_pct": 0.0,
+    "udp_mbps": 1.06,
+    "udp_loss_pct": 0.05,
+    "udp_jitter_ms": 0.525
+  }
+}

@@ -1,29 +1,21 @@
-# ONOS installation and archives
+# ONOS installation (large downloaded dependencies)
 controller/onos-2.7.0/
 controller/*.tar.gz
 
-# Python cache
+# Python-generated files
 __pycache__/
 *.pyc
 *.pyo
 .venv/
 venv/
 
-# Logs
+# Temporary files and logs
 *.log
-logs/
-
-# Temporary files
 *.tmp
 *.swp
 *~
 
-# Experiment results (generated files)
-results/B_run*/
-results/C_run*/
-results/A_run*/
-
-# Sensitive information
+# Credentials and secrets
 .env
 .env.*
 !.env.example
@@ -32,10 +24,10 @@ results/A_run*/
 id_rsa
 id_ed25519
 
-# Editor files
+# Editor settings
 .vscode/
 .idea/
 
-# OS files
+# Operating system files
 .DS_Store
 Thumbs.db
