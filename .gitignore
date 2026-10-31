@@ -1,0 +1,41 @@
+# ONOS installation and archives
+controller/onos-2.7.0/
+controller/*.tar.gz
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Experiment results (generated files)
+results/B_run*/
+results/C_run*/
+results/A_run*/
+
+# Sensitive information
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

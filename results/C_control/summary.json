@@ -1,0 +1,28 @@
+{
+  "pre": {
+    "ping_avg_ms": 10.078,
+    "ping_max_ms": 10.3,
+    "ping_loss_pct": 0.0,
+    "udp_mbps": 1.0,
+    "udp_loss_pct": 0.0,
+    "udp_jitter_ms": 0.017
+  },
+  "during": {
+    "ping_avg_ms": 170.445,
+    "ping_max_ms": 871.0,
+    "ping_loss_pct": 0.0,
+    "udp_mbps": 1.0,
+    "udp_loss_pct": 0.0,
+    "udp_jitter_ms": 1.07,
+    "h1_mbps": 3.46,
+    "h3_mbps": 3.46
+  },
+  "post": {
+    "ping_avg_ms": 10.069,
+    "ping_max_ms": 10.2,
+    "ping_loss_pct": 0.0,
+    "udp_mbps": 1.0,
+    "udp_loss_pct": 0.0,
+    "udp_jitter_ms": 0.009
+  }
+}

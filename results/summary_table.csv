@@ -1,0 +1,25 @@
+window,metric,B_mean,B_sd,C_mean,C_sd
+pre,Ping avg (ms),10.057,0.005,10.084,0.014
+pre,Ping loss (%),0.0,0.0,0.0,0.0
+pre,UDP throughput (Mbps),1.0,0.0,1.0,0.0
+pre,UDP loss (%),0.0,0.0,0.0,0.0
+pre,UDP jitter (ms),0.009,0.004,0.021,0.002
+during_early,Ping avg (ms),504.044,0.354,213.048,3.633
+during_early,Ping loss (%),0.0,0.0,0.0,0.0
+during_early,UDP throughput (Mbps),0.905,0.0,1.0,0.0
+during_early,UDP loss (%),0.0,0.0,0.0,0.0
+during_early,UDP jitter (ms),1.681,0.02,1.247,0.045
+during_early,Bulk h1 (Mbps),4.281,0.001,3.932,0.0
+during_early,Bulk h3 (Mbps),4.311,0.051,3.903,0.05
+during_steady,Ping avg (ms),1388.359,21.926,10.593,0.093
+during_steady,Ping loss (%),18.89,1.923,0.0,0.0
+during_steady,UDP throughput (Mbps),0.813,0.009,1.0,0.0
+during_steady,UDP loss (%),18.707,0.987,0.0,0.0
+during_steady,UDP jitter (ms),4.678,1.094,0.59,0.044
+during_steady,Bulk h1 (Mbps),4.214,0.168,2.893,0.034
+during_steady,Bulk h3 (Mbps),4.214,0.275,2.893,0.034
+post,Ping avg (ms),76.091,11.213,10.069,0.012
+post,Ping loss (%),0.0,0.0,0.0,0.0
+post,UDP throughput (Mbps),1.055,0.006,1.0,0.0
+post,UDP loss (%),0.127,0.178,0.0,0.0
+post,UDP jitter (ms),0.431,0.288,0.017,0.003
