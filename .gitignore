@@ -31,3 +31,5 @@ id_ed25519
 # Operating system files
 .DS_Store
 Thumbs.db
+
+/dashboard/
