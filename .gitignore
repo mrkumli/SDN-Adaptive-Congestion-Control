@@ -32,6 +32,10 @@ id_ed25519
 .DS_Store
 Thumbs.db
 
-/dashboard/
+/dashboard/frontend/node_modules/
+/dashboard/frontend/dist/
+/dashboard/frontend/.env
+/dashboard/frontend/.env.*
+/dashboard/frontend/*.local
+/dashboard/**/__pycache__/
 
-/dashboard/

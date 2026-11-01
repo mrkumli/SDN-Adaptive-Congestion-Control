@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "JetBrains Mono", "Cascadia Code", Menlo, monospace;
+}
+
+body { @apply bg-zinc-950 text-zinc-100 antialiased; }
+
+/* Animated dashed connector (horizontal) used in diagrams */
+.flow-line {
+  height: 1px;
+  background-image: repeating-linear-gradient(90deg, rgb(52 211 153 / 0.7) 0 6px, transparent 6px 12px);
+  background-size: 12px 1px;
+  background-repeat: repeat-x;
+  animation: flow 1s linear infinite;
+}
+@keyframes flow { to { background-position: 12px 0; } }
+@media (prefers-reduced-motion: reduce) { .flow-line { animation: none; } }
